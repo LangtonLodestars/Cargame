@@ -38,6 +38,15 @@ public class MenuActivity extends AppCompatActivity {
                Intent o = new Intent(context, OptionActivity.class);
             }
         });
+
+        ImageButton game = (ImageButton) findViewById(R.id.gameButton);
+        game.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent o = new Intent(context, GameActivity.class);
+            }
+        });
+
     }
 
     @Override

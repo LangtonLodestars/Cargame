@@ -39,7 +39,6 @@ public class MenuActivity extends AppCompatActivity {
                Intent o = new Intent(context, OptionActivity.class);
             }
         });
-
     }
 
     @Override
